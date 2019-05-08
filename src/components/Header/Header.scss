@@ -1,0 +1,21 @@
+@import "../../assets/scss/abstracts/ey-colors";
+@import "../../assets/scss/abstracts/variables";
+
+header {
+  color: $white;
+  text-align: center;
+  .subheader {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    font-weight: $light-font;
+  }
+}
+
+.logo-area {
+  padding: 1rem;
+  text-align: center;
+  .logo {
+    max-width: 64px;
+    max-height: 64px;
+  }
+}

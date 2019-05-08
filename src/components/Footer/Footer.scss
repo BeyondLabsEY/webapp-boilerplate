@@ -1,0 +1,14 @@
+@import "../../assets/scss/abstracts/variables";
+
+footer {
+  font-family: $ey-interstate;
+  font-size: .825em;
+  text-align: center;
+  p {
+    margin: .75rem 0 0;
+  }
+  .logo {
+    max-width: 64px;
+    max-height: 36px;
+  }
+}

@@ -1,12 +1,33 @@
-// Bootstrap
-@import "~bootstrap/scss/bootstrap";
-
 // Global defaults
 @import "./abstracts/ey-colors";
 @import "./abstracts/variables";
 
-/*
- * Custom styles
- */
+// Bootstrap
+$gray-100: $ey-gray-tint3;
+$gray-400: $ey-gray-tint2;
+$gray-500: $ey-gray-tint1;
+$gray-600: #666;
+$gray-700: $ey-gray-alternate;
+$gray-800: $ey-dark-gray;
+$gray-900: $ey-new-gray;
 
-// Add your styles here...
+$blue: $ey-link-blue;
+$indigo: $ey-purple;
+$purple: $ey-lilac;
+$red: $ey-red;
+$yellow: $ey-yellow;
+$green: $ey-green;
+$cyan: $ey-blue;
+
+$body-bg: $gray-100;
+$body-color: $gray-900;
+
+$font-family-base: $ey-interstate;
+
+$font-weight-light: $light-font;
+$font-weight-normal: $regular-font;
+$font-weight-bold: $bold-font;
+
+@import "~bootstrap/scss/bootstrap";
+
+// Custom styles

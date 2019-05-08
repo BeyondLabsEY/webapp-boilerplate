@@ -1,13 +1,6 @@
 # webapp-boilerplate
 A front-end web app to start a new project from scratch.
 
-## Structure
-
-### Favicon generator
-You can use [this favicon generator](https://realfavicongenerator.net/) to customize you application. It would help you with that little icon shown in your browser's tab.
-
-After you load your icon and set all the instructions, download the favicon package, unzip it and replace all files in the folder ```src/assets/favicon```. If necessary, update the ```favicon.js``` file according to your needs, all the magic happens there.
-
 ## Must have
 Node + NPM installed globally on your computer.
 
@@ -18,9 +11,16 @@ But if none of the above works, follow [these instructions](https://docs.npmjs.c
 ## First use
 After cloning this repository, enter its root folder and type ```npm install``` in a terminal window. This will download and install all the required packages to make this application functional.
 
+## Structure
+
+### Favicon generator
+You can use [this favicon generator](https://realfavicongenerator.net/) to customize you application. It would help you with that little icon shown in your browser's tab.
+
+After you load your icon and set all the instructions, download the favicon package, unzip it and replace all files in the folder ```src/assets/favicon```. If necessary, update the ```favicon.js``` file according to your needs, all the magic happens there.
+
 ## Development environment
 Open a terminal window and type ```npm run dev```. This will bootstrap the application in a new browser's tab.
-For every change you make on this project, the oponed browser window will automatically update.
+For every change you make on this project, the opened browser window will automatically update.
 
 Now you can start coding... Have fun!
 
