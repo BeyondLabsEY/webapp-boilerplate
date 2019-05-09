@@ -28,6 +28,9 @@ $font-weight-light: $light-font;
 $font-weight-normal: $regular-font;
 $font-weight-bold: $bold-font;
 
+$headings-font-family: $font-family-base;
+$headings-font-weight: $font-weight-bold;
+
 @import "~bootstrap/scss/bootstrap";
 
 // Custom styles

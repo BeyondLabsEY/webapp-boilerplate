@@ -27,7 +27,7 @@ class Wrapper extends Component {
             </div>
           </div>
         </div>
-        <div className="flex-grow-0 py-4">
+        <div className="flex-grow-0 py-4 bg-light">
           <div className="container">
             <div className="row">
               <div className="col">

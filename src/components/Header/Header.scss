@@ -4,18 +4,17 @@
 header {
   color: $white;
   text-align: center;
-  .subheader {
+  .logo-area {
+    padding: 1.5rem;
+    .logo {
+      max-width: 128px;
+      max-height: 128px;
+    }
+  }
+  .welcome {
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
+    font-size: 1.8rem;
     font-weight: $light-font;
-  }
-}
-
-.logo-area {
-  padding: 1rem;
-  text-align: center;
-  .logo {
-    max-width: 64px;
-    max-height: 64px;
   }
 }

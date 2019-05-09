@@ -9,7 +9,7 @@ $image-path: "../img" !default;
 html {
   background: $ey-gray-tint3;
   background: linear-gradient(to right, transparentize($ey-gray-tint3, 0.1), transparentize($ey-gray-tint3, 0.2)), url($image-path + '/bg.png');
-  background-position: bottom center;
+  background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

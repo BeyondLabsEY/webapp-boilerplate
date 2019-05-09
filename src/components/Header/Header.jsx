@@ -1,20 +1,18 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 
 import "./Header.scss";
-import Logo from "../../assets/img/logo-ey.png";
+import Logo from "../../assets/img/logo-alternate.png";
 
 class Header extends Component {
   render() {
     return (
-      <Fragment>
-        <div className="logo-area">
-          <img className="logo" src={Logo} alt="EY logo" />
+      <header>
+        <h1 className="sr-only">Boilerplate</h1>
+        <div class="logo-area">
+          <img className="logo" src={Logo} alt="Beyond Labs logo" />
         </div>
-        <header>
-          <h1 className="sr-only">EY Boilerplate</h1>
-          <h2 className="subheader">Welcome to your boilerplate</h2>
-        </header>
-      </Fragment>
+        <p className="welcome">Welcome to your boilerplate</p>
+      </header>
     );
   }
 }
