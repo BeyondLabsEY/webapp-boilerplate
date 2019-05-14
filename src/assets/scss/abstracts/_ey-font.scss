@@ -4,25 +4,30 @@ $ey-font-path: "../../fonts/ey-interstate/" !default;
 
 @font-face {
   font-family: "EYInterstate";
-  src: url($ey-font-path + "EYInterstate-Light.ttf") format('truetype'),
-    url($ey-font-path + "EYInterstate-Light.woff") format('woff');
+  src: url($ey-font-path + "EYInterstate-Light.woff2") format('woff2'),
+    url($ey-font-path + "EYInterstate-Light.woff") format('woff'),
+    url($ey-font-path + "EYInterstate-Light.ttf") format('truetype');
   font-weight: $light-font;
   font-style: normal;
 }
+
 @font-face {
   font-family: "EYInterstate";
-  src: url($ey-font-path + "EYInterstate-LightItalic.ttf") format('truetype');
+  src: url($ey-font-path + "EYInterstate-LightItalic.woff") format('woff'),
+    url($ey-font-path + "EYInterstate-LightItalic.ttf") format('truetype');
   font-weight: $light-font;
   font-style: italic;
 }
 
 @font-face {
   font-family: "EYInterstate";
-  src: url($ey-font-path + "EYInterstate-Regular.ttf") format('truetype'),
-    url($ey-font-path + "EYInterstate-Regular.woff") format('woff');
+  src: url($ey-font-path + "EYInterstate-Regular.woff2") format('woff2'),
+    url($ey-font-path + "EYInterstate-Regular.woff") format('woff'),
+    url($ey-font-path + "EYInterstate-Regular.ttf") format('truetype');
   font-weight: $regular-font;
   font-style: normal;
 }
+
 @font-face {
   font-family: "EYInterstate";
   src: url($ey-font-path + "EYInterstate-Italic.ttf") format('truetype');
@@ -32,14 +37,23 @@ $ey-font-path: "../../fonts/ey-interstate/" !default;
 
 @font-face {
   font-family: "EYInterstate";
-  src: url($ey-font-path + "EYInterstate-Bold.ttf") format('truetype'),
-    url($ey-font-path + "EYInterstate-Bold.woff") format('woff');
+  src: url($ey-font-path + "EYInterstate-Bold.woff2") format('woff2'),
+    url($ey-font-path + "EYInterstate-Bold.woff") format('woff'),
+    url($ey-font-path + "EYInterstate-Bold.ttf") format('truetype');
   font-weight: $bold-font;
   font-style: normal;
 }
+
 @font-face {
   font-family: "EYInterstate";
   src: url($ey-font-path + "EYInterstate-BoldItalic.ttf") format('truetype');
   font-weight: $bold-font;
   font-style: italic;
+}
+
+@font-face {
+  font-family: "EYInterstate";
+  src: url($ey-font-path + "EYInterstate-Black.woff") format('woff');
+  font-weight: $black-font;
+  font-style: normal;
 }
