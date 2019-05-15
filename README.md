@@ -31,6 +31,12 @@ You can use [this favicon generator](https://realfavicongenerator.net/) to custo
 
 After you load your icon and set all the instructions, download the favicon package, unzip it and replace all files in the folder ```src/assets/favicon```. If necessary, update the ```favicon.js``` file according to your needs, all the magic happens there.
 
+### Renaming
+
+Don't forget to rename your project!
+
+Update this project's name and description in the file ```package.json```. You may also wanna replace that ```<title>...</title>``` tag located in ```src/index.html``` to something more apropriate.
+
 ### Custom styles
 The visual design of this application is based on Bootstrap, but with some overwritten presets. To go deeply into more details, enter the ```src/assets/scss/custom.scss``` file. You can also add your custom styles there.
 
