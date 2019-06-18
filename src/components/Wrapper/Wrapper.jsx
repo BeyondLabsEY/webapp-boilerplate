@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Container, Row, Col } from "react-bootstrap";
 
 import "./Wrapper.scss";
 import Header from "../Header/Header.jsx";
@@ -10,31 +11,31 @@ class Wrapper extends Component {
     return (
       <div className="d-flex flex-column wrapper">
         <div className="flex-grow-0 py-4 bg-dark">
-          <div className="container">
-            <div className="row">
-              <div className="col">
+          <Container>
+            <Row>
+              <Col>
                 <Header />
-              </div>
-            </div>
-          </div>
+              </Col>
+            </Row>
+          </Container>
         </div>
         <div className="flex-grow-1 py-3">
-          <div className="container">
-            <div className="row">
-              <div className="col">
+          <Container>
+            <Row>
+              <Col>
                 <Main />
-              </div>
-            </div>
-          </div>
+              </Col>
+            </Row>
+          </Container>
         </div>
         <div className="flex-grow-0 py-4 bg-light">
-          <div className="container">
-            <div className="row">
-              <div className="col">
+          <Container>
+            <Row>
+              <Col>
                 <Footer />
-              </div>
-            </div>
-          </div>
+              </Col>
+            </Row>
+          </Container>
         </div>
       </div>
     );

@@ -1,6 +1,6 @@
 {
-    "name": "BeyondLabs EY",
-    "short_name": "BeyondLabs EY",
+    "name": "BeyondLabs",
+    "short_name": "BeyondLabs",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#2e2e38",
-    "background_color": "#2e2e38",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
     "display": "standalone"
 }

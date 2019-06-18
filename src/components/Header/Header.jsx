@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import "./Header.scss";
-import Logo from "../../assets/img/logo-alternate.png";
+import Logo from "../../assets/img/logo.png";
 
 class Header extends Component {
   render() {
