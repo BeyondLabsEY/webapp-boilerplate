@@ -1,12 +1,7 @@
 {
   "name": "webapp-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A front-end web app to start a new project from scratch.",
-  "main": "index.js",
-  "scripts": {
-    "dev": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production --progress"
-  },
   "keywords": [
     "npm",
     "webpack",
@@ -14,9 +9,18 @@
     "react",
     "bootstrap"
   ],
-  "author": "Eduardo Basso <eduardo.basso@br.ey.com> (https://eduardobasso.github.io/)",
-  "contributors": [],
   "license": "ISC",
+  "author": "Eduardo Basso <eduardo.basso@br.ey.com>",
+  "contributors": [],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BeyondLabsEY/webapp-boilerplate.git"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production --progress"
+  },
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
