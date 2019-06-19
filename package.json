@@ -1,7 +1,7 @@
 {
   "name": "webapp-boilerplate",
   "version": "1.0.1",
-  "description": "A front-end web app to start a new project from scratch.",
+  "description": "This boilerplate is a front-end web app to start a new project from scratch.",
   "keywords": [
     "npm",
     "webpack",
